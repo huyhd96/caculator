@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Caculator</title>
+</head>
+
+<body>
+    <h1>Caculator</h1>
+    <div class="form">
+        <div class="input">
+            <label for="no1">Nhập số thứ nhất</label>
+            <input name="no1" id="no1" type="number" placeholder="Số thứ 1" required></input>
+            <label for="no2">Nhập số thứ hai</label>
+            <input name="no2" id="no2" type="number" placeholder="Số thứ 2" required></input>
+        </div>
+        <div class="action">
+            <button onclick="add()">Addition (+)</button>
+            <button onclick="sub()"> Subtraction (-)</button>
+            <button onclick="div()">Division (/)</button>
+            <button onclick="multi()">Multplication (*)</button>
+        </div>
+        <h3 id="result">Result:</h3>
+    </div>
+    <script src="caculator.js"></script>
+</body>
+
+</html>
